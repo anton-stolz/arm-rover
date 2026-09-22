@@ -1,0 +1,14 @@
+diff_drive_node:
+  ros__parameters:
+    port: "/dev/ttyACM0"
+    baud: 115200
+    wheel_radius: 0.031
+    wheel_separation: 0.190
+    gear_ratio: 1.0
+    max_wheel_deg_s: 1000.0
+    publish_rate: 20.0
+    cmd_timeout_s: 0.5
+    publish_tf: false
+    odom_frame: "odom"
+    base_frame: "base_link"
+

@@ -1,0 +1,22 @@
+diff_drive_node:
+  ros__parameters:
+    port: "/dev/ttyACM0"
+    baud: 115200
+    wheel_radius: 0.031
+    wheel_separation: 0.190
+    gear_ratio: 1.0
+    max_wheel_deg_s: 1200.0
+    publish_rate: 20.0
+    cmd_timeout_s: 0.5
+    publish_tf: false
+    odom_frame: "odom"
+    base_frame: "base_link"
+
+bumper_node:
+  ros__parameters:
+    decay_rate: 0.85
+    thresh_back: 495.0
+    thresh_front: 540.0
+    recovery_speed: 0.10
+    recovery_drive_sec: 0.6
+    recovery_pause_sec: 0.5
