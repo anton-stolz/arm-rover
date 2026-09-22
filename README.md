@@ -1,4 +1,4 @@
-# arm-rover
+# Arm Rover
 
 <img width="2688" height="1512" alt="PXL_20260922_145024456" src="https://github.com/user-attachments/assets/6812098f-1e48-4b06-a70b-41c21931fbd9" />
 
@@ -19,10 +19,17 @@ The Chassis is build with wood bars and a lot of hot glue
 - 2D Lidar ld d500
 - imu: mpu6500
 - 5v 2A UBEC, 5v 8A UBEC
-- DC Motor controller build from Spare parts: Mosfet Transistor, logic Transistor and Relay
+- DC Motor controller build from spare parts: Mosfet Transistor, logic Transistor and Relay
 - Geard TT-Motors with wheels
 - Hall Sensors 49E
 - Battery: 2200mAh LiPo
+
+## Wheel Encoders
+Custom designed and 3d Printed magnetic encoder using 4 2x5mm Neodym magnets, aranged in a 4 Pole encoder.
+
+## Bumper Sensor
+the lidar is mounted relatively high, so there is a danger of bumping into stuff thats below the line of sight of the lidar sensor.
+The Bumper sensors are the cardboard sheets in the front of back which are mounted with foam at the lower end, so it compresses, and using hall sensors this movement can be detected.  
 
 ## Software
 
